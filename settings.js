@@ -8,7 +8,7 @@ export default {
     storageFilePath: process.env.STORAGE_FILE_PATH || './cache.json',
     chatGptClient: {
         // Your OpenAI API key (for `ChatGPTClient`)
-        openaiApiKey: process.env.OPENAI_API_KEY || 'sk-SX0rF4ffCz7F0zIuiK9vT3BlbkFJTZWA99hBN9ZiCHA5Ds',
+        openaiApiKey: process.env.OPENAI_API_KEY || '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',
         // (Optional) Support for a reverse proxy for the completions endpoint (private API server).
         // Warning: This will expose your `openaiApiKey` to a third party. Consider the risks before using this.
         // reverseProxyUrl: 'https://chatgpt.hato.ai/completions',
@@ -16,7 +16,8 @@ export default {
         modelOptions: {
             // You can override the model name and any other parameters here.
             // The default model is `gpt-3.5-turbo`.
-            model: 'gpt-3.5-turbo',
+            // model: 'gpt-3.5-turbo',
+            model: 'gpt-4',
             // Set max_tokens here to override the default max_tokens of 1000 for the completion.
             // max_tokens: 1000,
         },
