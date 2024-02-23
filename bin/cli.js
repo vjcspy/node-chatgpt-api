@@ -94,7 +94,7 @@ switch (clientToUse) {
         break;
 }
 
-console.log(tryBoxen('ChatGPT CLI', {
+console.log(tryBoxen('Vim Code', {
     padding: 0.7, margin: 1, borderStyle: 'double', dimBorder: true,
 }));
 
