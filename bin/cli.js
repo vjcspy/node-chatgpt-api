@@ -68,7 +68,7 @@ const availableCommands = [
         value: '!delete-all',
     },
     {
-        name: '!exit - Exit ChatGPT CLI',
+        name: '!exit - Exit Vim CLI',
         value: '!exit',
     },
 ];
