@@ -8,7 +8,7 @@ export default {
     storageFilePath: process.env.STORAGE_FILE_PATH || './cache.json',
     chatGptClient: {
         // Your OpenAI API key (for `ChatGPTClient`)
-        openaiApiKey: process.env.OPENAI_API_KEY || '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',
+        openaiApiKey: process.env.OPENAI_API_KEY || 'sk-SX0rF4ffCz7F0zIuiK9vT3BlbkFJTZWA99hBN9ZiCHA5Ds',
         // (Optional) Support for a reverse proxy for the completions endpoint (private API server).
         // Warning: This will expose your `openaiApiKey` to a third party. Consider the risks before using this.
         // reverseProxyUrl: 'https://chatgpt.hato.ai/completions',
